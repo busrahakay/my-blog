@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* HTML ve BODY için genel ayarlar */
+html {
+    min-height: 100%; /* HTML elemanının tam ekran yüksekliğini kapsamasını sağlar */
+    box-sizing: border-box; /* Box modelini standart hale getirir */
+}
+
+*, *::before, *::after {
+    box-sizing: inherit; /* Box modelini tüm elementlere uygular */
+}
+
+body {
+    min-height: 100%; /* Sayfa içeriği kısa olsa bile tam ekranı kapsar */
+    margin: 0; /* Varsayılan tarayıcı boşluklarını kaldırır */
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+    /* Arka plan özellikleri */
+    background-image: url('/background.jpg'); /* Arka plan resmi */
+    background-size: cover; /* Resmi ekran boyutuna göre ayarla */
+    background-position: center; /* Resmi merkeze hizala */
+    background-repeat: no-repeat; /* Tekrar etmesini önle */
+    background-attachment: fixed; /* Arka planın kaydırılmamasını sağlar */
+}
+
+/* İçerik genişliği ve hizalaması */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; /* İçeriğe biraz boşluk ekler */
+}
+
+/* Sayfanın sonuna kadar arka planın görünmesi için */
+main {
+    min-height: calc(100vh - 80px); /* Sayfanın minimum yüksekliğini hesapla (navbar veya header yüksekliğini hesaba katın) */
+}
