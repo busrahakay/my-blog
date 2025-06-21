@@ -12,8 +12,8 @@ export default function Document() {
                 <link rel="icon" href="/star.svg" type="image/svg+xml" />
 
                 {/* Varsayılan başlık ve meta veriler */}
-                <title>Cennet-Beyza Blog</title> {/* Burada sekme başlığını ayarlıyoruz */}
-                <meta name="description" content="Cennet-Beyza'nın harika blog sitesi!" />
+                <title>Cennet Blog</title> {/* Burada sekme başlığını ayarlıyoruz */}
+                <meta name="description" content="Cennet'in harika blog sitesi!" />
             </Head>
             <body>
             <Main />
