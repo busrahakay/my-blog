@@ -7,12 +7,12 @@ Modern teknolojilerle geliştirilmiş, projelerin ve blog postlarının yönetil
 
 ## ✨ Özellikler
 
-📰 Blog postları oluşturma, silme ve güncelleme
-📂 Proje içerikleri yayınlama ve düzenleme
-✉️ İletişim sayfasını yönetme
-🔐 Admin giriş paneli (güvenli kimlik doğrulama)
-⚙️ Gerçek zamanlı içerik yönetimi
-🌐 SEO dostu sayfa yapısı ve dinamik yönlendirme
+- 📰 Blog postları oluşturma, silme ve güncelleme
+- 📂 Proje içerikleri yayınlama ve düzenleme
+- ✉️ İletişim sayfasını yönetme
+- 🔐 Admin giriş paneli (güvenli kimlik doğrulama)
+- ⚙️ Gerçek zamanlı içerik yönetimi
+- 🌐 SEO dostu sayfa yapısı ve dinamik yönlendirme
 
 ---
 
