@@ -38,4 +38,4 @@ npm run dev
 ```
 ---
 
-🔧 Uygulama arayüzü ve işlevi görselleri için result_images dosyasını inceleyin!
+🔧 Uygulama arayüz görselleri için result_images dosyasını inceleyin!
